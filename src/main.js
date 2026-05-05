@@ -2,7 +2,7 @@ import './style.css';
 import DataTable from 'datatables.net-dt';
 import 'datatables.net-dt/css/dataTables.dataTables.css';
 
-const API_URL = "/api-ecuador/api/v1/instituciones"
+const API_URL = "https://corsproxy.io/?https://www.gob.ec/api/v1/instituciones";
 async function cargarDatos() {
   try {
     const respuesta = await fetch(API_URL) || null;
