@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
+  base: '/vite-jquery-datatable/',
   server: {
     proxy: {
       '/api-ecuador': {
